@@ -465,6 +465,7 @@ class UserController {
 团队在飞书文档中协作编辑API规范，然后使用Cursor通过MCP服务器访问这些规范并生成代码：
 
 ```
+
 用户: 请根据我们团队的飞书API规范文档，为新的订单管理模块生成API接口代码：https://xxx.feishu.cn/docx/yyyy
 
 Cursor: 我会根据您团队的API规范文档生成订单管理模块的接口代码。让我先获取文档内容。
@@ -478,6 +479,8 @@ Cursor: 我会根据您团队的API规范文档生成订单管理模块的接口
 3. 获取订单详情
 4. 更新订单状态
 5. 取消订单
+
+```
 
 以下是符合您团队API规范的代码实现：
 
@@ -537,7 +540,7 @@ export default router;
 
 ### 9.1 主要目录结构
 
-```
+```bash
 feishu-mcp/
 ├── src/                    # 源代码
 │   ├── index.ts            # 应用程序入口点
